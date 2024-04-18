@@ -71,7 +71,7 @@ export function FeedItem({ dados, currentVisibleItem }) {
 
       <Video
         ref={video}
-        style={{ width: "100%", height: heightScreen * 0.98 }}
+        style={{ width: "100", height: Dimensions.get("window").height }} // Defina a altura para a altura total da tela
         source={{ uri: dados.video }}
         resizeMode="cover"
         shouldPlay={false}
