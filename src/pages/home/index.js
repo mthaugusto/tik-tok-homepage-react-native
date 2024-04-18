@@ -19,7 +19,7 @@ export function Home() {
   let feedItems = [
     {
       id: "1",
-      video: "https://i.imgur.com/E0tK2bY.mp4",
+      video: "https://i.imgur.com/Cnz1CPK.mp4",
       name: "@sujeitoprogramador",
       description: "Criando o ShortDev do zero com RN",
     },
